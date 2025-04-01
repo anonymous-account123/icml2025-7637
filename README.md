@@ -14,7 +14,7 @@
 ***
 ## Figure 4
 ![](./rebuttal_figure_4.png)
-**Figure 4. Computational cost of topological regularization.** Comparison between the vanilla and regularized models in terms of **(a)** regularization values and **(b)** test MSE over normalized wall-clock time. The vertical dashed line marks the point at which topological regularization is activated. The benchmark follows the experimental setup described in Section 5.
+**Figure 4. Computational cost of topological regularization.** Comparison between the vanilla and regularized models in terms of **(a)** regularization values and **(b)** test MSE over normalized wall-clock time. The vertical dashed line marks the point at which topological regularization is activated. The regularization value is defined by Equation (5) in the main text. While both models compute this value, only the regularized model is explicitly trained to minimize it. The vanilla model occasionally exhibits decrease in the regularization value as it implicitly learns certain topological patterns from data, but its efficiency is significantly lower than the explicitly regularized one. This difference leads to faster convergence and better predictive accuracy in the regularized case, as shown in (b). The benchmark follows the experimental setup described in Section 5.
 ***
 ## Figure 5
 ![](./rebuttal_figure_5.png)
